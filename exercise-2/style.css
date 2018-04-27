@@ -1,0 +1,28 @@
+
+        body * { }
+        div { width: ; height: ; }
+
+        section { display: grid;
+          background:#012169;
+          grid-template-columns: 1fr 1fr 1fr 1fr;
+          grid-template-rows: 3fr 3fr;
+          height:50vw;
+          width:100vw;
+          
+          align-items: center;
+          justify-items: center;
+        }
+
+        .line{
+          background: #FFC72C;
+          position:absolute;
+          width:100vw;
+          height:2vw;
+          top:25vw;
+        }
+        .flag{
+          position: absolute;
+          z-index: 10;
+          top:27vw;
+          left:16vw;
+        }
