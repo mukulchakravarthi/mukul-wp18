@@ -12,7 +12,10 @@ section{
 	grid-column: 1/12;
 	grid-row:1/26;
 	background: #002868;
+	display:inline-flex;
+	align-items: center;
 }
+
 .reds1{
 	grid-column:12/33;
 	grid-row:1/5;
