@@ -8,10 +8,8 @@
           grid-template-rows: 3fr 3fr;
           height:50vw;
           width:100vw;
-          
           align-items: center;
-          justify-items: center;
-        }
+         }
 
         .line{
           background: #FFC72C;
