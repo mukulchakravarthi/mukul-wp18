@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta content="ie=edge" http-equiv="x-ua-compatible">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Archivo+Narrow" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+  <title>Troll Tower</title>
+  <link href="troll.css" rel="stylesheet" type="text/css">
+  
+</head>
+
+  <body>
+    <div class="headingcont">
+      <div id="head"><h1><a href="troll.html">[CON]TROLL TOWER</a></h1></div>
+      <div id="line1"></div>
+      <div id="subhead"><h4>Building Anonymity</h4></div>
+    </div>
+    <div class="trending">
+  <div id="trends"><h4>Plant Yourselves Here</h4></div>
+  <div class="line3"></div>
+  <ul class="news">
+    <li><a href="https://twitter.com/hashtag/NationalWalkoutDay?src=tren&data_id=tweet%3A973898857657626630">#NationalStudentWalkout</a><br><p>Students around the country have begun boycotting their schools until gun refrom introduced</p></li>
+    <li><a href="https://twitter.com/search?q=Florida&src=tren">#Florida</a><br><p>Calls for gun reform persist as followng the shooting at a Florida high school</p></li>
+    <li><a href="https://twitter.com/search?q=%22Stephen%20Hawking%22&src=tren&data_id=tweet%3A973768972414980096">#StephenHawking</a><br><p>One of the most influential cosmologists of the 21st century passes away at the age of 76</p></li>
+    <li><a href="https://twitter.com/search?q=trump&src=typd">#Trump</a><br><p>Damning claims on affair with pornstar continue to flow, thrusting the president further into the media's scanner</p></li>
+    <li><a href="http://www.4chan.org/">#Alt-Right</a><br><p>A growing trend of impressionable young teenagers reported to be joining the group</p></li>
+    <li><a href="https://twitter.com/search?q=pepe&src=typd">#Pepe</a></li>
+    <li><a href="https://twitter.com/search?q=stormydaniels&src=tyah">#StormyDaniels</a><br><p>Former adult movie star files lawsuit against Pres.Trump for attempting to silence her</p></li>
+    <li><a href="https://twitter.com/search?q=%23Rexit&src=tyah">#RexTilerson</a><br><p>Further contibuting to the instability of the Trump cabinet, Sect. of State Tillerson</p></li>
+    <li><a href="https://www.womensmarch.com/">#MeToo</a></li>
+  </ul>
+</div>
+<div id="container">
+    <div class="step1"><p>Step One: Visual ID</p></div>
+
+    <video id="video" width="320" height="240" class="margin"></video>
+  <canvas id="canvas" width="320" height="240" style="display: none;"></canvas>
+  <div id="stack" class="playground">
+  </div>
+  <div class="margin">
+    <p>
+      <div id="filterButtons"></div>
+    </p>
+    <ol type="1">
+      <li><button id="startButton">Start webcam</button></li>
+      <p id="disclaimer">*We highly recommend the invert option</p> 
+      <li><button id="photoButton">Take photo</button></li>
+    </ol>
+  </div><!--end of margin class-->
+
+    <div class="step2"><p>Step Two: Username</p></div>
+    <div class="acgenerate">
+     <select id="selection_lang">
+      <option value="lang_roman_male">Roman</option>
+      <option value="lang_skyrim_male">Skyrim</option>
+    </select>
+    
+    <button onclick="generate()">Generate</button>
+    <p id="n_output"></p>
+  </div><!--End of acgenerate class-->
+
+  <!--Start of passwordgenerate class-->
+
+  <div class="step3"><p>Step Three: Password</p></div>
+  <div class="password">
+  <form name="pgenerate">
+    <div class="pvalues">
+<input id="text" size=12 name="output">
+<input id="button" value="Generate" onClick="populateform(this.form.thelength.value)"><br />
+ <input id="text" name="thelength" size=3 value="10">
+</div>
+</form>
+</div>
+<!--End of passwordgenerate class-->
+<div class="step4"><p>Step Four: Platform</p></div>
+<div class="platform"><ul id="smedia">
+  <li><a href="https://twitter.com/?logged_out=1&lang=en" target="_blank">Twitter</a></li>
+  <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li> 
+  <li><a href="https://www.instagram.com/?hl=en" target="_blank">Instagram</a></li>
+  <li><a href="https://www.snapchat.com/" target="_blank">Snapchat</a></li>
+  <li><a href="https://www.reddit.com/" target="_blank">Reddit</a></li>
+  <li><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></li>
+</ul></div>
+</div>
+
+<script type="text/javascript" src="test.js"></script>
+
+
+
+
+  
+
+</body>
+</html>
