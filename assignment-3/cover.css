@@ -4,8 +4,12 @@ body{
 	font-family:"helvetica",sans-serif;
 	color:black;
 }
-
-
+.head{
+  font-family: 'IBM Plex Mono', monospace;
+  color:white;
+  font-size: 2vw;
+  margin-left:75px;
+}
 
 .layer {
   position: absolute;
