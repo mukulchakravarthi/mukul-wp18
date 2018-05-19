@@ -1,0 +1,114 @@
+body{
+	background:black;
+	color:white;
+	overflow:auto;
+	font-family: 'IBM Plex Mono', monospace;
+}
+
+.heading{
+	font-size:1vw;
+}
+.heading h4{
+	padding-top:20px;
+	color:gray;
+}
+
+.footercontent{
+	font-size: 1vw;
+}
+
+.footercontent{
+	margin-top:0vw;
+	margin-left:.5vw;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'IBM Plex Mono', monospace;
+  margin: 24px;
+  background: black;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.article {
+  display: block;
+  margin: 0 0 30px 0;
+  padding: 12px;
+  border-radius: 3px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+  transition: all 220ms;
+  opacity: .7;
+}
+
+.wall h1:hover{
+	background:red;
+}
+.article:hover {
+  box-shadow: 0px 2px 3px 1px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+  transition: all 220ms;
+  opacity:1;
+}
+.article > img {
+  display: block;
+  width: 100%;
+  margin: 0 0 24px 0;
+  padding-top:50px;
+}
+.article h1 {
+  text-align: center;
+  
+  margin: 0 0 12px 0;
+}
+
+.wall {
+  display: block;
+  position: relative;
+}
+.wall-column {
+  display: block;
+  position: relative;
+  width: 20%;
+  float: left;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wall-column:first-child {
+  padding-right: 12px;
+}
+.wall-column ~ .wall-column {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.wall-column:last-of-type {
+  padding-right: 0;
+}
+@media (max-width: 640px) {
+  .wall-column {
+    width: 50%;
+  }
+}
+@media (max-width: 480px) {
+  .wall-column {
+    width: auto;
+    float: none;
+    padding: 0;
+  }
+}
+
+
+
+
+
+
+
+

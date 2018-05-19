@@ -5,11 +5,11 @@
 <style type="text/css">
 	.st0{fill:#FFFFFF;}
 	.st1{font-family:'IBMPlexMono-Medium';}
-	.st2{font-size:43.334px;}
+	.st2{font-size:83.3336px;}
 </style>
 <g>
 	<rect x="-8.5" y="-8.5" width="117" height="117"/>
 	<path d="M108-8v116H-8V-8H108 M109-9H-9v118h118V-9L109-9z"/>
 </g>
-<text transform="matrix(1 0 0 1 24.0006 36.7759)"><tspan x="0" y="0" class="st0 st1 st2">WP</tspan><tspan x="0" y="52" class="st0 st1 st2">18</tspan></text>
+<text transform="matrix(1 0 0 1 4.882812e-04 70.7354)" class="st0 st1 st2">WP</text>
 </svg>
