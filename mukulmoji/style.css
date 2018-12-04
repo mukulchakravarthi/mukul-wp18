@@ -1,0 +1,84 @@
+* {
+	padding: 1vw;
+	margin: 0vw;
+}
+
+html {
+	font-family: 'IBM Plex Mono', monospace;
+	font-size: 30px;
+	background: #101010;
+	color: #F5F5F5;
+}
+
+ul li {
+	list-style: none;
+	margin: 1rem 0;
+}
+
+input {
+	font-size: inherit;
+	font-family: 'IBM Plex Mono', monospace;
+	text-align: center;
+	border: none;
+	border-bottom: 2px solid black;
+	padding: 0 0.5rem;
+}
+
+button {
+	font-size: inherit;
+	font-family: 'IBM Plex Mono', monospace;
+	border: 2px solid black;
+	padding: 0.5rem;
+	position:relative;
+	top:2vw;
+	margin: 0rem 0.5rem;
+
+}
+
+main, aside {
+	font-size: 1rem;
+	z-index:2;
+	line-height: 200%;
+}
+
+.heading{
+	margin: 0rem 0.5rem;
+}
+
+.manual span {
+	background-color: #faa;
+	background-size: 1vw,1vw;
+}
+
+.sub-head {
+	font-size: 1vw;
+	color: #B0B0B0;
+	position: absolute;
+	top: 4.35vw;
+	margin: 0rem 0.5rem;
+}
+
+.enter{
+	font-size: 1vw;
+	position: relative;
+	top: 2vw;
+	margin: 0rem 0.5rem;
+}
+
+.shape-1 {
+	border-bottom: 1px solid white;
+	margin: 0rem 0.5rem;
+}
+
+.shape {
+	border-bottom: 1px solid white;
+	margin: -3rem 35.5rem;
+	width: 13rem;
+}
+
+.footer{
+	font-size: 0.75vw;
+	margin: 3rem 35.0rem;
+	color: #696969;
+	width: 15rem;
+}
