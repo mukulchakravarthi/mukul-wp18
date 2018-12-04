@@ -1,0 +1,35 @@
+#cosmos{
+  box-shadow: 0 0 3vw rgba(0,0,0,0.5) inset;
+  width: 100vw; height: 100vh;
+  position: absolute; top: 0px; left: 0px;
+  pointer-events: none;
+}
+#universe {
+  background-color: blue;
+  display: block;
+  width: 100%;
+}
+.header{
+  color:white;
+  font-family: 'IBM Plex Mono', monospace;
+  position:relative;
+  top:-53vw;
+  left:3vw;
+  z-index: 2;
+}
+.heading{
+	position: absolute;
+	color:white;
+	font-family: 'IBM Plex Mono', monospace;
+	width:320px;
+	z-index: 10;
+	top:40vw;
+	left:3vw;
+	padding:1vw;
+}
+a{
+	color:white;
+}
+body{
+	overflow: hidden;
+}
