@@ -1,0 +1,38 @@
+.layers {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 500px;
+  height: 500px;
+}
+
+.layer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-image: url("https://cdn.wallpapersafari.com/32/21/6OTdn8.jpg");
+  border-radius: 50%;
+  /*  border: 1px solid red;*/
+}
+
+.controls {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+.controls .control {
+  margin: 0px 0px 10px 0px;
+}
+.controls .val {
+  float: right;
+  margin-left: 20px;
+}
+
+body {
+  background: black;
+  color: white;
+}
