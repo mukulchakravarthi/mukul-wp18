@@ -1,0 +1,144 @@
+.layers {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 450px;
+  height: 450px;
+}
+
+.layer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-image: url("superman_assets/superman.jpg");
+  border-radius: 50%;
+  /*  border: 1px solid red;*/
+}
+
+.controls {
+  position: absolute;
+  left: 35vw;
+  top: 42vw;
+  transform: scale(.75);
+  color:white;
+  z-index: 5;
+}
+.controls .control {
+  margin: 0px 0px 10px 0px;
+}
+.controls .val {
+  float: right;
+  margin-left: 20px;
+}
+
+.header{
+	font-family: neue-haas-unica, sans-serif;
+	font-style: bold;
+	font-weight: 200;
+	font-size:2vw;
+	position: relative;
+	margin:3.8vw;
+	top:-2vw;
+}
+
+.box{
+	position: absolute;
+  	top: 10%;
+  	left: 34%;
+	box-sizing: content-box;  
+  	width: 28vw;
+  	height: 42vw;
+  	padding: 30px;  
+  	z-index: -1;
+  	background-color: black;
+  	box-shadow: 30px 30px 80px grey;
+}
+.home{
+	font-family: neue-haas-unica, sans-serif;
+	font-style: bold;
+	font-weight: 200;
+	font-size:2vw;
+	position: relative;
+	margin:2vw;
+	top:0vw;
+}
+.posterhead{
+	position: absolute;
+	left:36vw;
+	top:3vw;
+	font-family: neue-haas-unica, sans-serif;
+	font-weight: 100;
+	letter-spacing: -2px;
+	font-size:4vw;
+	color: white;
+}
+.posterdate{
+	position: absolute;
+	left:48vw;
+	top:41vw;
+	font-family: neue-haas-unica, sans-serif;
+	font-weight: 100;
+	letter-spacing: -2px;
+	font-size:3vw;
+	color:white;
+}
+.circle{
+	height: 16vw;
+  	width: 16vw;
+  	background: linear-gradient(#74ebd5, #ACB6E5);
+  	position:absolute;
+  	left:35vw;
+  	top:7vw;
+  	border-radius: 50%;
+  	z-index:-1;
+}
+.circle2{
+	height: 10vw;
+  	width: 10vw;
+  	background: linear-gradient(#74ebd5, #ACB6E5);
+  	position:absolute;
+  	left:54vw;
+  	top:39vw;
+  	border-radius: 50%;
+  	z-index:-1;
+}
+
+.footer{
+	font-family: neue-haas-unica, sans-serif;
+	font-style: bold;
+	font-weight: 200;
+	font-size:1.5vw;
+	position: relative;
+	margin:2vw;
+	top:19vw;
+
+}
+
+.sidequote{
+	font-family: minion-3-display, serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size:2.0vw;
+	position: absolute;
+	margin:5vw;
+	top:-7vw;
+	left:60vw;
+	width:25vw;
+	color:black;
+}
+
+ul{
+	list-style: none;
+}
+
+body {
+  background: white;
+	color:black;
+	background-size: 40px 40px;
+	background-image: linear-gradient(to right, grey 1px, transparent 1px), linear-gradient(to bottom, grey 1px, transparent 1px);
+  
+}
